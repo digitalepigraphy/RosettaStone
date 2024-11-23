@@ -4,9 +4,13 @@ This repository contains the raw and processed data from a collaborative project
 
 ## ✍ Cite as
 
-If you use this repository in your work please cite as:
+If you use data from this repository in your work please cite as:
 
 Amin, M., Barmpoutis, A., Berti, M., Bozia, E., Hensel, J. and Naether, F., 2018. Depth map of the Rosetta Stone. https://dx.doi.org/10.17613/t1e2-0w02
+
+## License
+
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License (CC BY-NC-SA 4.0) https://github.com/digitalepigraphy/RosettaStone/blob/main/LICENSE.md
 
 ## Contents
 
