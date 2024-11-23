@@ -83,6 +83,12 @@ Panov, M. and Lanciers, E., 2023. The Memphite Sacerdotal Decree of 161 BCE (Pla
 
 Manzetti, M.C., 2023. Combining 3D Visibility Analysis and Virtual Acoustics Analysis for the Architectural Study of Ancient Theatres. In Capturing the Senses: Digital Methods for Sensory Archaeologies (pp. 105-125). Cham: Springer International Publishing.
 
+Birk, R. with contributions by Jonas Treptow, Simon D. Schweitzer, Altägyptisches Wörterbuch, Daniel A. Werning, 2024. "Rosettana (Égyptien de Tradition)" (Text ID FNXUNEJ2OBGDPM6HCHZJC2672Q), Thesaurus Linguae Aegyptiae, Corpus issue 19, Web app version 2.2.0, 11/5/2024, ed. by Tonio Sebastian Richter & Daniel A. Werning on behalf of the Berlin-Brandenburgische Akademie der Wissenschaften and Hans-Werner Fischer-Elfert & Peter Dils on behalf of the Sächsische Akademie der Wissenschaften zu Leipzig (accessed: 11/23/2024). https://thesaurus-linguae-aegyptiae.de/text/FNXUNEJ2OBGDPM6HCHZJC2672Q
+
+## Additional Resources
+
+All Good Things come in Threes: The Rosetta Stone and the Decipherment of Ancient Egyptian. https://ausstellungen.deutsche-digitale-bibliothek.de/rosetta-stone/
+
 
 
 
