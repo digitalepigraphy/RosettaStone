@@ -37,7 +37,7 @@ Amin, M., Barmpoutis, A., Berti, M., Bozia, E., Hensel, J. and Naether, F., 2018
 3. Composite 3D model with normal map: https://github.com/digitalepigraphy/RosettaStone/tree/main/3d_model/Rosetta3DModel
 4. Screenshot of the 3D model: https://github.com/digitalepigraphy/RosettaStone/blob/main/results/3DRendering_of_Rosetta_Stone.jpg
 
-## Scanning Process
+## Scanning Method
 
 With the permission of the British Museum, an interdisciplinary team from the University of Florida and the University of Leipzig scanned the Rosetta Stone in June 2018 to generate a high-resolution 2D and 3D map of its inscribed surface. In our setup, we used a single DSLR camera (Nikon D3400), which was fixed on a tripod in front of the stone, and calibrated as follows: exposure time = 5 sec., ISO speed = ISO-100, F-stop = f/25, focal length = 135mm, and max aperture = 4.5. To reconstruct the tridimensional inscribed surface using the shape-from-shading method, we controlled the lighting of the stone using a handheld light wand (Ice Light) that served as a 15-inch long light source of 1600 lumen at 5600k color temperature.
 
@@ -69,7 +69,9 @@ Data from this project have been used in the following publications:
 
 Amin, M., Barmpoutis, A., Berti, M., Bozia, E., Hensel, J. and Naether, F., 2018. Depth map of the Rosetta Stone. http://dx.doi.org/10.17613/t1e2-0w02
 
-Ilona Regulski, , 2022. Hieroglyphs: Unlocking Ancient Egypt. pp. 236.
+Birk, R., 2021. "Der Rand des Rosettasteins. Eine Neulesung von Z. 1 des hieroglyphischen Texts", Chronique d'Egypte 96(191), pp.10-22.
+
+Regulski, I. 2022. Hieroglyphs: Unlocking Ancient Egypt. pp. 236.
 
 Amin, M., Barmpoutis, A., Berti, M., Bozia, E., Hensel, J. and Naether, F., 2023. The Digital Rosetta Stone Project. Chapter 3 In Ancient Egypt, New Technology: The Present and Future of Computer Visualization, Virtual Reality and other Digital Humanities in Egyptology, R. Lucarelli, J. Roberson, and S. Vinson (ed.), Harvard Egyptological Studies, vol. 17, pp. 58-84. https://doi.org/10.1163/9789004501294
 
