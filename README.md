@@ -69,7 +69,7 @@ Data from this project have been used in the following publications:
 
 Amin, M., Barmpoutis, A., Berti, M., Bozia, E., Hensel, J. and Naether, F., 2018. Depth map of the Rosetta Stone. http://dx.doi.org/10.17613/t1e2-0w02
 
-Birk, R., 2021. "Der Rand des Rosettasteins. Eine Neulesung von Z. 1 des hieroglyphischen Texts", Chronique d'Egypte 96(191), pp.10-22.
+Birk, R., 2021. "Der Rand des Rosettasteins. Eine Neulesung von Z. 1 des hieroglyphischen Texts", Chronique d'Egypte 96(191), pp.10-22. https://doi.org/10.1484/J.CDE.5.128161
 
 Regulski, I. 2022. Hieroglyphs: Unlocking Ancient Egypt. pp. 236.
 
