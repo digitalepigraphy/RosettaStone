@@ -63,3 +63,24 @@ The result of this process is a high-resolution 3D representation of the Rosetta
 
 Link to the 3D visualization: https://research.dwi.ufl.edu/op.n/file/2fzrs3i2cvas964f/embed
 
+## Publications
+
+Data from this project have been used in the following publications:
+
+Amin, M., Barmpoutis, A., Berti, M., Bozia, E., Hensel, J. and Naether, F., 2018. Depth map of the Rosetta Stone. http://dx.doi.org/10.17613/t1e2-0w02
+
+Ilona Regulski, , 2022. Hieroglyphs: Unlocking Ancient Egypt. pp. 236.
+
+Amin, M., Barmpoutis, A., Berti, M., Bozia, E., Hensel, J. and Naether, F., 2023. The Digital Rosetta Stone Project. Chapter 3 In Ancient Egypt, New Technology: The Present and Future of Computer Visualization, Virtual Reality and other Digital Humanities in Egyptology, R. Lucarelli, J. Roberson, and S. Vinson (ed.), Harvard Egyptological Studies, vol. 17, pp. 58-84. https://doi.org/10.1163/9789004501294
+
+Barmpoutis, A. and Bozia, E., 2023. Reinscribing the 3rd dimension in epigraphic studies and transcending disciplinary boundaries. In Numérique et lecture de textes épigraphiques altérés, H. Gonzalez Bordas and F. Comte (eds.). Pessac, Ausonius éditions, collection PrimaLun@ 27, pp. 79-94. https://ressources.una-editions.fr/s/WRjmQn8Sd2Ddp8k
+
+Bozia, E., 2023. “Please, Touch the Exhibits”: 3D Archaeology for Experiential Spatialisation. In Capturing the Senses: Digital Methods for Sensory Archaeologies (pp. 127-147). Cham: Springer International Publishing.
+
+Panov, M. and Lanciers, E., 2023. The Memphite Sacerdotal Decree of 161 BCE (Plates I–V). Journal of Egyptian History, 16(1), pp.30-82.
+
+Manzetti, M.C., 2023. Combining 3D Visibility Analysis and Virtual Acoustics Analysis for the Architectural Study of Ancient Theatres. In Capturing the Senses: Digital Methods for Sensory Archaeologies (pp. 105-125). Cham: Springer International Publishing.
+
+
+
+
