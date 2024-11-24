@@ -28,7 +28,26 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public L
    - Part 8 (Lower Right): https://github.com/digitalepigraphy/RosettaStone/tree/main/images/part8
    - Additional photos: https://github.com/digitalepigraphy/RosettaStone/tree/main/images/part0
 
-2. Computed Images
+2. Algorithmically computed images
+   
+   - Depth map of Part 1: https://github.com/digitalepigraphy/RosettaStone/blob/main/images/rosetta1.png
+   - Depth map of Part 2: https://github.com/digitalepigraphy/RosettaStone/blob/main/images/rosetta2.png
+   - Depth map of Part 3: https://github.com/digitalepigraphy/RosettaStone/blob/main/images/rosetta3.png
+   - Depth map of Part 4: https://github.com/digitalepigraphy/RosettaStone/blob/main/images/rosetta4.png
+   - Depth map of Part 5: https://github.com/digitalepigraphy/RosettaStone/blob/main/images/rosetta5.png
+   - Depth map of Part 6: https://github.com/digitalepigraphy/RosettaStone/blob/main/images/rosetta6.png
+   - Depth map of Part 7: https://github.com/digitalepigraphy/RosettaStone/blob/main/images/rosetta7.png
+   - Depth map of Part 8: https://github.com/digitalepigraphy/RosettaStone/blob/main/images/rosetta8.png
+   - Normal map of Part 1: https://github.com/digitalepigraphy/RosettaStone/blob/main/images/rosetta_n1.png
+   - Normal map of Part 2: https://github.com/digitalepigraphy/RosettaStone/blob/main/images/rosetta_n2.png
+   - Normal map of Part 3: https://github.com/digitalepigraphy/RosettaStone/blob/main/images/rosetta_n3.png
+   - Normal map of Part 4: https://github.com/digitalepigraphy/RosettaStone/blob/main/images/rosetta_n4.png
+   - Normal map of Part 5: https://github.com/digitalepigraphy/RosettaStone/blob/main/images/rosetta_n5.png
+   - Normal map of Part 6: https://github.com/digitalepigraphy/RosettaStone/blob/main/images/rosetta_n6.png
+   - Normal map of Part 7: https://github.com/digitalepigraphy/RosettaStone/blob/main/images/rosetta_n7.png
+   - Normal map of Part 8: https://github.com/digitalepigraphy/RosettaStone/blob/main/images/rosetta_n8.png
+   
+3. Manually composed images
 
    - Photo of the Rosetta Stone: https://github.com/digitalepigraphy/RosettaStone/blob/main/results/Photo_of_Rosetta_Stone.jpeg
    - Depth map of the Rosetta Stone: https://github.com/digitalepigraphy/RosettaStone/blob/main/results/Depthmap_of_Rosetta_Stone_clean.jpg
