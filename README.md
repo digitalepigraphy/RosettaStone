@@ -8,6 +8,10 @@ If you use data from this repository in your work please cite as:
 
 Amin, M., Barmpoutis, A., Berti, M., Bozia, E., Hensel, J. and Naether, F., 2018. Depth map of the Rosetta Stone. https://dx.doi.org/10.17613/t1e2-0w02
 
+Additionally, if you discuss this project in your work please cite:
+
+Amin, M., Barmpoutis, A., Berti, M., Bozia, E., Hensel, J. and Naether, F., 2023. The Digital Rosetta Stone Project. Chapter 3 In Ancient Egypt, New Technology: The Present and Future of Computer Visualization, Virtual Reality and other Digital Humanities in Egyptology, R. Lucarelli, J. Roberson, and S. Vinson (ed.), Harvard Egyptological Studies, vol. 17, pp. 58-84. https://doi.org/10.1163/9789004501294
+
 ## License
 
 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License (CC BY-NC-SA 4.0) https://github.com/digitalepigraphy/RosettaStone/blob/main/LICENSE.md
@@ -88,7 +92,7 @@ Link to the 3D visualization: https://research.dwi.ufl.edu/op.n/file/2fzrs3i2cva
 
 ## Publications
 
-Data from this project have been used in the following publications:
+Data from this project have been used or discussed in the following publications:
 
 Amin, M., Barmpoutis, A., Berti, M., Bozia, E., Hensel, J. and Naether, F., 2018. Depth map of the Rosetta Stone. http://dx.doi.org/10.17613/t1e2-0w02
 
@@ -110,7 +114,15 @@ Birk, R. with contributions by Jonas Treptow, Simon D. Schweitzer, Altägyptisch
 
 ## Additional Resources
 
+The Digital Rosetta Stone Project. https://rosetta-stone.dh.uni-leipzig.de/
+
 All Good Things come in Threes: The Rosetta Stone and the Decipherment of Ancient Egyptian. https://ausstellungen.deutsche-digitale-bibliothek.de/rosetta-stone/
+
+3D Scanning the Rosetta Stone. https://www.digitalepigraphy.org/page/3d-scanning-the-rosetta-stone/
+
+Leipziger Forscherinnen schaffen digitalen Stein von Rosette. https://www.mdr.de/wissen/stein-von-rosette-digital-leipzig-100.html
+
+George A. Smathers Libraries Digital Collections, Permalink of the Depth map of the Rosetta Stone. https://ufdc.ufl.edu/IR00011130/00001
 
 
 
