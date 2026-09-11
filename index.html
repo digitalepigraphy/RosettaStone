@@ -960,28 +960,25 @@
       var record = json.Records[id];
       var squeeze = record.Squeeze || {};
       var inscription = record.Inscription || {};
+      var object = record.Object || {};
 
       var topEditors = resolveEditors(record.Editors, editorsDict);
       var squeezeEditors = resolveEditors(squeeze.Editors, editorsDict);
+      var objectEditors = resolveEditors(object.Editors, editorsDict);
 
-      var parts = [
-        id,
-        record.Description,
-        squeeze.Title,
-        squeeze["Accession ID Number"],
-        squeeze["Present location"],
-        squeeze["Principal Investigator"],
-        squeeze.Material,
-        squeeze.Date,
-        inscription.Title,
-        inscription.Description,
-        inscription.Language,
-        inscription["Present location"],
-        inscription["Modern country"],
-        inscription.Text,
-        topEditors.join(" "),
-        squeezeEditors.join(" ")
-      ].filter(Boolean).join(" ").toLowerCase();
+      // Pull every string/number field out of the record and its Squeeze,
+      // Inscription, and Object sub-objects, so search matches any visible
+      // text (not just a hand-picked list of "important" fields).
+      var allFieldValues = []
+        .concat(genericRows(record, ["Squeeze", "Inscription", "Object", "Editors", "Sources"]).map(function(r){ return r.value; }))
+        .concat(genericRows(squeeze, ["Editors", "Sources"]).map(function(r){ return r.value; }))
+        .concat(genericRows(inscription, ["Editors", "Sources"]).map(function(r){ return r.value; }))
+        .concat(genericRows(object, ["Editors", "Sources"]).map(function(r){ return r.value; }));
+
+      var parts = [id]
+        .concat(allFieldValues)
+        .concat([topEditors.join(" "), squeezeEditors.join(" "), objectEditors.join(" ")])
+        .filter(Boolean).join(" ").toLowerCase();
 
       var lang = inscription.Language || "Unknown";
       languageSet[lang] = true;
@@ -1055,6 +1052,10 @@
     var record = entry.record;
     var squeeze = record.Squeeze || {};
     var inscription = record.Inscription || {};
+    var object = record.Object || {};
+    var hasSqueeze = Object.keys(squeeze).length > 0;
+    var hasInscription = Object.keys(inscription).length > 0;
+    var hasObject = Object.keys(object).length > 0;
 
     var wrap = document.createElement("div");
     wrap.className = "card__panel-content";
@@ -1068,31 +1069,47 @@
     var infoGrid = document.createElement("div");
     infoGrid.className = "info-grid";
 
-    var recordRows = genericRows(record, ["Squeeze", "Inscription", "Editors", "Sources"]);
+    var recordRows = genericRows(record, ["Squeeze", "Inscription", "Object", "Editors", "Sources"]);
     recordRows.push({ label: "Editors", value: resolveEditors(record.Editors, state.editorsDict) });
     recordRows.push({ label: "Sources", value: resolveSources(record.Sources) });
     infoGrid.appendChild(buildInfoBox("Imaging", entry.id, recordRows));
 
-    var squeezeRows = genericRows(squeeze, ["Title", "Editors", "Sources"]);
-    squeezeRows.push({ label: "Editors", value: resolveEditors(squeeze.Editors, state.editorsDict) });
-    squeezeRows.push({ label: "Sources", value: resolveSources(squeeze.Sources) });
-    infoGrid.appendChild(buildInfoBox("Squeeze", squeeze.Title || null, squeezeRows));
+    // Squeeze, Object, and Inscription panels only appear when the record
+    // actually has that data — a missing sub-object means no box, rather
+    // than an empty heading with nothing underneath it.
+    if (hasSqueeze) {
+      var squeezeRows = genericRows(squeeze, ["Title", "Editors", "Sources"]);
+      squeezeRows.push({ label: "Editors", value: resolveEditors(squeeze.Editors, state.editorsDict) });
+      squeezeRows.push({ label: "Sources", value: resolveSources(squeeze.Sources) });
+      infoGrid.appendChild(buildInfoBox("Squeeze", squeeze.Title || null, squeezeRows));
+    }
 
-    var inscriptionRows = genericRows(inscription, ["Title", "Text", "Editors", "Sources"]);
-    if (Array.isArray(inscription.Editors)) {
-      inscriptionRows.push({ label: "Editors", value: resolveEditors(inscription.Editors, state.editorsDict) });
+    // The Object box sits in the same side-by-side slot as Squeeze; a record
+    // never has both, so there's no placement conflict between them.
+    if (hasObject) {
+      var objectRows = genericRows(object, ["Title", "Editors", "Sources"]);
+      objectRows.push({ label: "Editors", value: resolveEditors(object.Editors, state.editorsDict) });
+      objectRows.push({ label: "Sources", value: resolveSources(object.Sources) });
+      infoGrid.appendChild(buildInfoBox("Object", object.Title || null, objectRows));
     }
-    if (Array.isArray(inscription.Sources)) {
-      inscriptionRows.push({ label: "Sources", value: resolveSources(inscription.Sources) });
+
+    if (hasInscription) {
+      var inscriptionRows = genericRows(inscription, ["Title", "Text", "Editors", "Sources"]);
+      if (Array.isArray(inscription.Editors)) {
+        inscriptionRows.push({ label: "Editors", value: resolveEditors(inscription.Editors, state.editorsDict) });
+      }
+      if (Array.isArray(inscription.Sources)) {
+        inscriptionRows.push({ label: "Sources", value: resolveSources(inscription.Sources) });
+      }
+      var transcriptionNode = null;
+      if (inscription.Text) {
+        transcriptionNode = document.createElement("p");
+        transcriptionNode.className = "transcription";
+        transcriptionNode.setAttribute("lang", inscription.Language === "Greek" ? "grc" : (inscription.Language === "Latin" ? "la" : ""));
+        transcriptionNode.textContent = formatTranscription(inscription.Text);
+      }
+      infoGrid.appendChild(buildInfoBox("Inscription", inscription.Title || null, inscriptionRows, transcriptionNode, true));
     }
-    var transcriptionNode = null;
-    if (inscription.Text) {
-      transcriptionNode = document.createElement("p");
-      transcriptionNode.className = "transcription";
-      transcriptionNode.setAttribute("lang", inscription.Language === "Greek" ? "grc" : (inscription.Language === "Latin" ? "la" : ""));
-      transcriptionNode.textContent = formatTranscription(inscription.Text);
-    }
-    infoGrid.appendChild(buildInfoBox("Inscription", inscription.Title || null, inscriptionRows, transcriptionNode, true));
 
     wrap.appendChild(infoGrid);
     return wrap;
@@ -1166,11 +1183,12 @@
     var record = entry.record;
     var squeeze = record.Squeeze || {};
     var inscription = record.Inscription || {};
+    var object = record.Object || {};
 
-    var title = squeeze.Title || inscription.Title || entry.id;
-    var location = inscription["Present location"] || squeeze["Present location"] || "";
+    var title = squeeze.Title || inscription.Title || object.Title || entry.id;
+    var location = inscription["Present location"] || squeeze["Present location"] || object["Present location"] || "";
     var language = inscription.Language || "";
-    var text = inscription.Text || "";
+    var text = inscription.Text || object.Description || "";
     var imageUrl = state.baseUrl + entry.id + "/ImageLeft.png";
 
     var article = document.createElement("article");
@@ -1194,7 +1212,7 @@
     media.className = "card__media";
     var img = document.createElement("img");
     img.src = imageUrl;
-    img.alt = "Digitized squeeze image for record " + entry.id + (title ? ", " + title : "");
+    img.alt = "Digitized image for record " + entry.id + (title ? ", " + title : "");
     img.loading = "lazy";
     img.addEventListener("error", function(){ media.removeChild(img); });
     media.appendChild(img);
