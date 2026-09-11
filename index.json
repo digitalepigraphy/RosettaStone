@@ -1,0 +1,81 @@
+{
+  "Collection": "Rosetta Stone 3D Digitization",
+  "URL": "https://digitalepigraphy.github.io/RosettaStone/",
+  "Records": {
+    "part1": {
+      "Description": "3D digitization of the artifact using photographs with 4 lighting directions.",
+      "Sources": [
+        {
+          "id": "PL23"
+        }
+      ]
+    },
+    "part2": {
+      "Description": "3D digitization of the artifact using photographs with 4 lighting directions.",
+      "Sources": [
+        {
+          "id": "PL23"
+        }
+      ]
+    },
+    "part3": {
+      "Description": "3D digitization of the artifact using photographs with 4 lighting directions.",
+      "Sources": [
+        {
+          "id": "PL23"
+        }
+      ]
+    },
+    "part4": {
+      "Description": "3D digitization of the artifact using photographs with 4 lighting directions.",
+      "Sources": [
+        {
+          "id": "PL23"
+        }
+      ]
+    },
+    "part5": {
+      "Description": "3D digitization of the artifact using photographs with 4 lighting directions.",
+      "Sources": [
+        {
+          "id": "PL23"
+        }
+      ]
+    },
+    "part6": {
+      "Description": "3D digitization of the artifact using photographs with 4 lighting directions.",
+      "Sources": [
+        {
+          "id": "PL23"
+        }
+      ]
+    },
+    "part7": {
+      "Description": "3D digitization of the artifact using photographs with 4 lighting directions.",
+      "Sources": [
+        {
+          "id": "PL23"
+        }
+      ]
+    },
+    "part8": {
+      "Description": "3D digitization of the artifact using photographs with 4 lighting directions.",
+      "Sources": [
+        {
+          "id": "PL23"
+        }
+      ]
+    }
+  },
+  "Editors": {},
+  "Sources": {
+    "PL23": {
+      "Author(s)": "A. Barmpoutis, E. Bozia",
+      "Title": "Reinscribing the 3rd dimension in epigraphic studies and transcending disciplinary boundaries",
+      "Publication": "Numérique et lecture de textes épigraphiques altérés, H. Gonzalez Bordas and F. Comte (eds.). Pessac, Ausonius éditions, collection PrimaLun@",
+      "Volume": "27",
+      "Year": "2023",
+      "Pages": "79-94"
+    }
+  }
+}
