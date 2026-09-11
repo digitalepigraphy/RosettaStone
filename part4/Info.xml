@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<record>
+	<field id="27" value="3D digitization of the artifact using photographs with 4 lighting directions.">
+		<source id="../References/PL23/Info.xml"></source>
+	</field>
+	<record_link type="image" value="ImageLeft.png"/>
+	<record_link type="image" value="ImageBottom.png"/>
+	<record_link type="image" value="ImageRight.png"/>
+	<record_link type="image" value="ImageTop.png"/>
+</record>
