@@ -1189,7 +1189,7 @@
     var location = inscription["Present location"] || squeeze["Present location"] || object["Present location"] || "";
     var language = inscription.Language || "";
     var text = inscription.Text || object.Description || "";
-    var imageUrl = state.baseUrl + entry.id + "/ImageLeft.png";
+    var imageUrl = state.baseUrl + entry.id + "/thumb.jpg";
 
     var article = document.createElement("article");
     article.className = "card";
