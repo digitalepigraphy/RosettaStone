@@ -1,9 +1,24 @@
 {
   "Collection": "Rosetta Stone 3D Digitization",
   "URL": "https://digitalepigraphy.github.io/RosettaStone/",
+  "CiteAs": "",
   "Records": {
     "part1": {
       "Description": "3D digitization of the artifact using photographs with 4 lighting directions.",
+      "Inscription": {
+        "Title": "Decree of Memphis (the Rosetta Stone)",
+        "Inscription type": "royal/priestly decree",
+        "Language": "Greek, Egyptian (hieroglyphic), Egyptian (Demotic)",
+        "Period": "196 BC, Ptolemaic period",
+        "Publication": "OGIS I 90; C.Ord.Ptol. 55",
+        "Principal Investigator": "British Museum",
+        "Accession ID Number": "BM_EA_24",
+        "Sources": [
+          {
+            "url": "https://www.britishmuseum.org/collection/object/Y_EA24"
+          }
+        ]
+      },
       "Sources": [
         {
           "id": "PL23"
