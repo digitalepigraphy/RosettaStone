@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<record>
+	<field id="26" value="Decree of Memphis (the Rosetta Stone)"></field>
+	<field id="18" value="royal/priestly decree"></field>
+	<field id="19" value="Greek, Egyptian (hieroglyphic), Egyptian (Demotic)"></field>
+	<field id="30" value="196 BC, Ptolemaic period"></field>
+	<field id="20" value="OGIS I 90; C.Ord.Ptol. 55">
+		<source url="https://www.britishmuseum.org/collection/object/Y_EA24"></source>
+	</field>
+	<field id="44" value="British Museum"></field>
+	<field id="47" value="BM_EA_24"></field>
+</record>
