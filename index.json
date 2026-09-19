@@ -3,7 +3,7 @@
   "URL": "https://digitalepigraphy.github.io/RosettaStone/",
   "CiteAs": "",
   "Records": {
-    "part1": {
+    "BM_EA_24_part1": {
       "Description": "3D digitization of the artifact using photographs with 4 lighting directions.",
       "Inscription": {
         "Title": "Decree of Memphis (the Rosetta Stone)",
@@ -25,56 +25,154 @@
         }
       ]
     },
-    "part2": {
+    "BM_EA_24_part2": {
       "Description": "3D digitization of the artifact using photographs with 4 lighting directions.",
+      "Inscription": {
+        "Title": "Decree of Memphis (the Rosetta Stone)",
+        "Inscription type": "royal/priestly decree",
+        "Language": "Greek, Egyptian (hieroglyphic), Egyptian (Demotic)",
+        "Period": "196 BC, Ptolemaic period",
+        "Publication": "OGIS I 90; C.Ord.Ptol. 55",
+        "Principal Investigator": "British Museum",
+        "Accession ID Number": "BM_EA_24",
+        "Sources": [
+          {
+            "url": "https://www.britishmuseum.org/collection/object/Y_EA24"
+          }
+        ]
+      },
       "Sources": [
         {
           "id": "PL23"
         }
       ]
     },
-    "part3": {
+    "BM_EA_24_part3": {
       "Description": "3D digitization of the artifact using photographs with 4 lighting directions.",
+      "Inscription": {
+        "Title": "Decree of Memphis (the Rosetta Stone)",
+        "Inscription type": "royal/priestly decree",
+        "Language": "Greek, Egyptian (hieroglyphic), Egyptian (Demotic)",
+        "Period": "196 BC, Ptolemaic period",
+        "Publication": "OGIS I 90; C.Ord.Ptol. 55",
+        "Principal Investigator": "British Museum",
+        "Accession ID Number": "BM_EA_24",
+        "Sources": [
+          {
+            "url": "https://www.britishmuseum.org/collection/object/Y_EA24"
+          }
+        ]
+      },
       "Sources": [
         {
           "id": "PL23"
         }
       ]
     },
-    "part4": {
+    "BM_EA_24_part4": {
       "Description": "3D digitization of the artifact using photographs with 4 lighting directions.",
+      "Inscription": {
+        "Title": "Decree of Memphis (the Rosetta Stone)",
+        "Inscription type": "royal/priestly decree",
+        "Language": "Greek, Egyptian (hieroglyphic), Egyptian (Demotic)",
+        "Period": "196 BC, Ptolemaic period",
+        "Publication": "OGIS I 90; C.Ord.Ptol. 55",
+        "Principal Investigator": "British Museum",
+        "Accession ID Number": "BM_EA_24",
+        "Sources": [
+          {
+            "url": "https://www.britishmuseum.org/collection/object/Y_EA24"
+          }
+        ]
+      },
       "Sources": [
         {
           "id": "PL23"
         }
       ]
     },
-    "part5": {
+    "BM_EA_24_part5": {
       "Description": "3D digitization of the artifact using photographs with 4 lighting directions.",
+      "Inscription": {
+        "Title": "Decree of Memphis (the Rosetta Stone)",
+        "Inscription type": "royal/priestly decree",
+        "Language": "Greek, Egyptian (hieroglyphic), Egyptian (Demotic)",
+        "Period": "196 BC, Ptolemaic period",
+        "Publication": "OGIS I 90; C.Ord.Ptol. 55",
+        "Principal Investigator": "British Museum",
+        "Accession ID Number": "BM_EA_24",
+        "Sources": [
+          {
+            "url": "https://www.britishmuseum.org/collection/object/Y_EA24"
+          }
+        ]
+      },
       "Sources": [
         {
           "id": "PL23"
         }
       ]
     },
-    "part6": {
+    "BM_EA_24_part6": {
       "Description": "3D digitization of the artifact using photographs with 4 lighting directions.",
+      "Inscription": {
+        "Title": "Decree of Memphis (the Rosetta Stone)",
+        "Inscription type": "royal/priestly decree",
+        "Language": "Greek, Egyptian (hieroglyphic), Egyptian (Demotic)",
+        "Period": "196 BC, Ptolemaic period",
+        "Publication": "OGIS I 90; C.Ord.Ptol. 55",
+        "Principal Investigator": "British Museum",
+        "Accession ID Number": "BM_EA_24",
+        "Sources": [
+          {
+            "url": "https://www.britishmuseum.org/collection/object/Y_EA24"
+          }
+        ]
+      },
       "Sources": [
         {
           "id": "PL23"
         }
       ]
     },
-    "part7": {
+    "BM_EA_24_part7": {
       "Description": "3D digitization of the artifact using photographs with 4 lighting directions.",
+      "Inscription": {
+        "Title": "Decree of Memphis (the Rosetta Stone)",
+        "Inscription type": "royal/priestly decree",
+        "Language": "Greek, Egyptian (hieroglyphic), Egyptian (Demotic)",
+        "Period": "196 BC, Ptolemaic period",
+        "Publication": "OGIS I 90; C.Ord.Ptol. 55",
+        "Principal Investigator": "British Museum",
+        "Accession ID Number": "BM_EA_24",
+        "Sources": [
+          {
+            "url": "https://www.britishmuseum.org/collection/object/Y_EA24"
+          }
+        ]
+      },
       "Sources": [
         {
           "id": "PL23"
         }
       ]
     },
-    "part8": {
+    "BM_EA_24_part8": {
       "Description": "3D digitization of the artifact using photographs with 4 lighting directions.",
+      "Inscription": {
+        "Title": "Decree of Memphis (the Rosetta Stone)",
+        "Inscription type": "royal/priestly decree",
+        "Language": "Greek, Egyptian (hieroglyphic), Egyptian (Demotic)",
+        "Period": "196 BC, Ptolemaic period",
+        "Publication": "OGIS I 90; C.Ord.Ptol. 55",
+        "Principal Investigator": "British Museum",
+        "Accession ID Number": "BM_EA_24",
+        "Sources": [
+          {
+            "url": "https://www.britishmuseum.org/collection/object/Y_EA24"
+          }
+        ]
+      },
       "Sources": [
         {
           "id": "PL23"

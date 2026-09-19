@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <record>
+	<record_link type="neobject" value="Inscription.xml"></record_link>
 	<field id="27" value="3D digitization of the artifact using photographs with 4 lighting directions.">
 		<source id="../References/PL23/Info.xml"></source>
 	</field>
