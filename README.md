@@ -20,6 +20,8 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public L
 
 ### Images
 
+You can browse the dataset at: https://digitalepigraphy.github.io/RosettaStone/
+
 1. Raw photographs from 8 different sections of the Rosetta Stone.
 
    - Part 1 (Upper Left): https://github.com/digitalepigraphy/RosettaStone/tree/main/images/part1
@@ -34,22 +36,22 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public L
 
 2. Algorithmically computed images
    
-   - Depth map of Part 1: https://github.com/digitalepigraphy/RosettaStone/blob/main/images/rosetta1.png
-   - Depth map of Part 2: https://github.com/digitalepigraphy/RosettaStone/blob/main/images/rosetta2.png
-   - Depth map of Part 3: https://github.com/digitalepigraphy/RosettaStone/blob/main/images/rosetta3.png
-   - Depth map of Part 4: https://github.com/digitalepigraphy/RosettaStone/blob/main/images/rosetta4.png
-   - Depth map of Part 5: https://github.com/digitalepigraphy/RosettaStone/blob/main/images/rosetta5.png
-   - Depth map of Part 6: https://github.com/digitalepigraphy/RosettaStone/blob/main/images/rosetta6.png
-   - Depth map of Part 7: https://github.com/digitalepigraphy/RosettaStone/blob/main/images/rosetta7.png
-   - Depth map of Part 8: https://github.com/digitalepigraphy/RosettaStone/blob/main/images/rosetta8.png
-   - Normal map of Part 1: https://github.com/digitalepigraphy/RosettaStone/blob/main/images/rosetta_n1.png
-   - Normal map of Part 2: https://github.com/digitalepigraphy/RosettaStone/blob/main/images/rosetta_n2.png
-   - Normal map of Part 3: https://github.com/digitalepigraphy/RosettaStone/blob/main/images/rosetta_n3.png
-   - Normal map of Part 4: https://github.com/digitalepigraphy/RosettaStone/blob/main/images/rosetta_n4.png
-   - Normal map of Part 5: https://github.com/digitalepigraphy/RosettaStone/blob/main/images/rosetta_n5.png
-   - Normal map of Part 6: https://github.com/digitalepigraphy/RosettaStone/blob/main/images/rosetta_n6.png
-   - Normal map of Part 7: https://github.com/digitalepigraphy/RosettaStone/blob/main/images/rosetta_n7.png
-   - Normal map of Part 8: https://github.com/digitalepigraphy/RosettaStone/blob/main/images/rosetta_n8.png
+   - Depth map of Part 1: https://github.com/digitalepigraphy/RosettaStone/blob/main/BM_EA_24_part1/Heightmap.png
+   - Depth map of Part 2: https://github.com/digitalepigraphy/RosettaStone/blob/main/BM_EA_24_part2/Heightmap.png
+   - Depth map of Part 3: https://github.com/digitalepigraphy/RosettaStone/blob/main/BM_EA_24_part3/Heightmap.png
+   - Depth map of Part 4: https://github.com/digitalepigraphy/RosettaStone/blob/main/BM_EA_24_part4/Heightmap.png
+   - Depth map of Part 5: https://github.com/digitalepigraphy/RosettaStone/blob/main/BM_EA_24_part5/Heightmap.png
+   - Depth map of Part 6: https://github.com/digitalepigraphy/RosettaStone/blob/main/BM_EA_24_part6/Heightmap.png
+   - Depth map of Part 7: https://github.com/digitalepigraphy/RosettaStone/blob/main/BM_EA_24_part7/Heightmap.png
+   - Depth map of Part 8: https://github.com/digitalepigraphy/RosettaStone/blob/main/BM_EA_24_part8/Heightmap.png
+   - Normal map of Part 1: https://github.com/digitalepigraphy/RosettaStone/blob/main/BM_EA_24_part1/Normalmap.png
+   - Normal map of Part 2: https://github.com/digitalepigraphy/RosettaStone/blob/main/BM_EA_24_part2/Normalmap.png
+   - Normal map of Part 3: https://github.com/digitalepigraphy/RosettaStone/blob/main/BM_EA_24_part3/Normalmap.png
+   - Normal map of Part 4: https://github.com/digitalepigraphy/RosettaStone/blob/main/BM_EA_24_part4/Normalmap.png
+   - Normal map of Part 5: https://github.com/digitalepigraphy/RosettaStone/blob/main/BM_EA_24_part5/Normalmap.png
+   - Normal map of Part 6: https://github.com/digitalepigraphy/RosettaStone/blob/main/BM_EA_24_part6/Normalmap.png
+   - Normal map of Part 7: https://github.com/digitalepigraphy/RosettaStone/blob/main/BM_EA_24_part7/Normalmap.png
+   - Normal map of Part 8: https://github.com/digitalepigraphy/RosettaStone/blob/main/BM_EA_24_part8/Normalmap.png
    
 3. Manually composed images
 
