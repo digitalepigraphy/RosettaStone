@@ -1,6 +1,6 @@
 # Creating the Depth Map of the Rosetta Stone
 
-This repository contains the raw and processed data from a collaborative project that led to the creation of the depth map and the normal map of the Rosetta Stone.
+This repository contains the raw and processed data from a collaborative project that led to the creation of the depth map and the normal map of the Rosetta Stone. You can browse the dataset at: https://digitalepigraphy.github.io/RosettaStone/
 
 ## ✍ Cite as
 
