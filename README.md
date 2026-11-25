@@ -65,6 +65,7 @@ You can browse the dataset at: https://digitalepigraphy.github.io/RosettaStone/
 2. Cleaned 3D model: https://github.com/digitalepigraphy/RosettaStone/tree/main/3d_model/Cleaned3DModel
 3. Composite 3D model with normal map: https://github.com/digitalepigraphy/RosettaStone/tree/main/3d_model/Rosetta3DModel
 4. Screenshot of the 3D model: https://github.com/digitalepigraphy/RosettaStone/blob/main/results/3DRendering_of_Rosetta_Stone.jpg
+5. Generate and download 3D models: https://digitalepigraphy.github.io/Depthmap-to-3D/
 
 ## Scanning Method
 
