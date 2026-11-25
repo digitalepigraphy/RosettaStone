@@ -1,7 +1,7 @@
 {
   "Collection": "Rosetta Stone 3D Digitization",
   "URL": "https://digitalepigraphy.github.io/RosettaStone/",
-  "CiteAs": "",
+  "CiteAs": "Amin, M., Barmpoutis, A., Berti, M., Bozia, E., Hensel, J. and Naether, F., 2023. The Digital Rosetta Stone Project. Chapter 3 In Ancient Egypt, New Technology: The Present and Future of Computer Visualization, Virtual Reality and other Digital Humanities in Egyptology, R. Lucarelli, J. Roberson, and S. Vinson (ed.), Harvard Egyptological Studies, vol. 17, pp. 58-84.",
   "Records": {
     "BM_EA_24_part1": {
       "Description": "3D digitization of the artifact using photographs with 4 lighting directions.",
